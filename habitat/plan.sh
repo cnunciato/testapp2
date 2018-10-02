@@ -3,6 +3,7 @@ pkg_origin=cnunciato
 pkg_version="0.1.0"
 pkg_maintainer="Christian Nunciato <chris@nunciato.org>"
 pkg_license=("MIT")
+pkg_deps=(cnunciato/testapp)
 
 do_install() {
   return 0
